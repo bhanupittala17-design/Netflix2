@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+           margin: 0px;
+           background-color:black;
+        }
+        .a{
+            position: absolute;
+            top: 5px;
+            left: 100px;
+            color: red;
+            font-size: 25px;
+        }
+        .b{
+            background-color:blue;   
+            color: white;
+            border: 1px solid gray;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            position: absolute;
+            top: 40px;
+            right: 270px;
+        }        
+        .c{
+            background: red;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 4px;
+            border: none;
+            cursor: pointer;
+            position: absolute;
+            top: 40px;
+            right: 120px;            
+        }
+        .e{
+            color: white;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 70px;
+            position: absolute;
+            top: 160px;
+            left: 330px;
+        }
+
+        .f{
+            color: white;
+            font-family: sans-serif,'Times New Roman', Times, serif;
+            font-size: 20px;
+            position: absolute;
+            top: 380px;
+            left:430px ;
+        }
+        #a{
+            color: white;
+            font-family: sans-serif,'Times New Roman', Times, serif;
+            font-size: 20px;
+            position: absolute;
+            top: 430px;
+            left:280px ;
+
+        }
+        #b{
+            padding: 20px 70px;
+            border-radius: 4px;
+            border: none;
+            position:absolute;
+            top: 500px;
+            left:290px ;
+        }
+        .g{
+            background: red;
+            color: white;
+            padding: 20px 40px;
+            border-radius: 4px;
+            border: none;
+            cursor: pointer;
+            position: absolute;
+            top: 500px;
+            right:400px;
+        }
+        .img{
+            background-color: black;
+            display: flex;
+            border: none;
+            justify-content: space-around;
+            padding: 20px;
+            border-radius: 15px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            padding-right: 60px;
+            padding-left: 60px;
+        }
+        #n:hover{
+            transition: 0.3s;
+            transform: scale(1.1);
+            border-radius: 25px;
+            cursor: pointer;
+
+        }
+
+        .h{
+            background-color: black;    
+            color: white;
+            text-align: center;
+            font-size: 40px;
+        }
+        .i{
+            
+            position: absolute;
+            top: 970px;
+            left: 60px;
+            font-size: 120px;
+            color: white;              
+        }
+        .j{
+            position: absolute;
+            top: 970px;
+            left: 350px;
+            font-size: 120px;
+            color: white;            
+        }
+        .k{
+            position: absolute;
+            top: 970px;
+            left: 630px;
+            font-size: 120px;
+            color: white;            
+        }
+        .l{
+            position: absolute;
+            top: 970px;
+            left: 910px;
+            font-size: 120px;
+            color: white;
+            
+        }
+        .m{
+            background-color: black;
+            color: white;
+            padding: 50px;
+            padding-left: 70px;
+            padding-top: 20px;
+        }
+        .n{
+            background-color: black;
+            color: white; 
+            display: flex;
+            justify-content: space-evenly;
+       
+        }
+        .o{
+            background-color: rgb(3, 46, 60);
+            border-radius: 15px;
+            padding: 15px;
+            border:  solid 2px;
+            height: 280px;
+            width: 200px;        
+        }
+        .p{
+            background-color: rgb(3, 46, 60);
+            border-radius: 15px;
+            padding: 15px;
+            border:  solid 2px;
+            height: 280px;
+            width: 200px;
+        }
+        .q{
+            background-color: rgb(3, 46, 60);
+            border-radius: 15px;
+            padding: 15px;
+            border:  solid 2px;
+            height: 280px;
+            width: 200px;
+        }
+        .r{
+            background-color: rgb(3, 46, 60);
+            border-radius: 15px;
+            padding: 15px;
+            border:  solid 2px;
+            height: 280px;
+            width: 200px;
+        
+        }
+        span{
+            display: flex;
+            align-items: end;
+            justify-content: right;
+            padding-top: 30px;
+            height: 40px;
+        }       
+        .s{
+            color: white;
+            padding: 30px;
+            padding-left: 140px;
+        }
+        #c p{
+            background-color: rgb(18, 18, 18);
+            color: white;
+            cursor: pointer;
+            padding: 15px 15px;  
+            margin: 20px 120px;
+            border-radius: 5px;
+            font-size: 30px;
+        } 
+        #e{
+               
+            
+            background-color:red;   
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            padding: 15px 80px; 
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            position: absolute;
+            left: 120px;        
+                        
+        }
+        #f{
+            background-color: black;
+            color: white;
+            padding-top: 100px;
+            padding-left: 100px;
+        }
+        #g{
+            color: white;
+            font-display: auto;
+            background-color: black;
+            display: flex;
+            justify-content: space-evenly; 
+            padding: 40px;
+            padding-left: 100px;
+            text-decoration: none;
+
+        }
+        #h{
+            
+            border-radius: 15px;
+            padding: 15px;
+            height: 280px;
+            width: 200px;
+        
+
+        }
+        #i{
+           
+            border-radius: 15px;
+            padding: 15px;
+            height: 280px;
+            width: 200px;
+
+        }
+        #j{
+           
+            border-radius: 15px;
+            padding: 15px;
+            
+            height: 280px;
+            width: 200px;
+
+        }
+        #k{
+            
+            border-radius: 15px;
+            border: none;
+            padding: 15px;
+           
+            height: 280px;
+            width: 200px;
+            
+
+        }
+        #l{
+            background-color:blue;   
+            color: white;
+            border: 2px solid gray;
+            padding: 15px 50px;
+             border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        
+            position: absolute;
+            top: 3150px;
+            left: 130px;
+
+            
+
+        }
+        #m{
+            color: white;
+            position: absolute;
+            top: 3250px;
+            left: 130px;
+           padding-bottom: 50px; 
+                 
+        }
+        #s{
+            
+   
+    height: 50px;
+    background: linear-gradient(to bottom, #08142b, black);
+    border-top-left-radius: 100% 10%;
+    border-top-right-radius: 100% 10%;
+    border-top: 4px solid #ff2d7a;  /* pink line */
+     }
+     #z{
+        height: 80px;
+        font-size: 40px;
+     }
+     #y{
+        height: 60px;
+        font-size: 40px;
+     }
+     #x{
+        
+        height: 30px;
+        font-size: 40px;
+     }
+     #w{
+        height: 70px;
+        font-size: 40px;
+     }
+     #b input:focus+label
+     #b input:valid+label{
+        top: -9px;
+        color: white;
+        background-color: black;
+        padding: 2px 7px;
+        border-radius: 10px;
+        font-size: 10px;
+     }
+        
+        
+    </style>
+</head>
+<body>
+    <nav class="a">
+        <h1>Netflix</h1>
+    </nav>
+
+    <div class="b">
+  
+        <select>
+            <option>English</option>
+            <option>Telugu</option>
+            <option>Hindi</option>
+        </select>
+  
+    </div>
+<button class="c">Sign Out</button>
+    <div >
+        <p class="e">Unlimited movies,<br> shows, and more.</p>
+        <p class="f">Starts at ₹149. Cancel at any time.</p>
+        <p id="a">Ready to watch? Enter your email to create or restart your membership.</p>-
+        <input type="email" placeholder="Enter your email" id="b">
+        <button class="g">Get Started ></button>
+    </div>
+
+    <img src="https://img.freepik.com/premium-photo/computer-generated-chromatic-aberration-bands-pixel-multicolored-noise-3d-rendering-abstract-background_828631-3128.jpg?semt=ais_user_personalization&w=740&q=80" alt="" height="650px" width="100%">
+    <div><div id="s"></div></div>
+    <h2 class="h">Trending Now</h2>
+    <div class="img">
+        
+        <img id="n" src="https://image.tmdb.org/t/p/original/z8onk7LV9Mmw6zKz4hT6pzzvmvl.jpg alt=" height="300px" width="230px">
+         <h1 class="i">1</h1>
+        <img id="n" src="https://s3.us-east-2.amazonaws.com/media.trendsinternational.com/8732-BWD22X34IMAGE1.jpg" alt="" height="300px" width="230px">
+        <h1 class="j">2</h1>
+        <img id="n" src="https://m.media-amazon.com/images/I/81Pbo-det7L._AC_UF1000,1000_QL80_.jpg" alt="" height="300px" width="230px">
+        <h1 class="k">3</h1>
+        <img id="n" src="https://images.moviesanywhere.com/313621acda686f24ff26ad6fd0752020/3f247710-0a1d-47c0-9fb7-d4f971729d57.jpg" alt="" height="300px" width="230px">
+        <h1 class="l">4</h1>
+    </div>
+    <div>
+        <h1 class="m">More reasons to join</h1>
+    </div>
+    <div class="n">
+        <div class="o">
+            <h2>Enjoy on your TV</h2>
+            <p>Watch on smart TVs,<br>PlayStation, Xbox, Chromecast,<br>Apple TV, Blu-ray <br>players and more.
+
+            </p>
+            <span id="z">🖥️</span>
+        </div>
+        <div class="p">
+            <h2>Download your shows <br>to watch offline</h2>
+            <p>Save your favourites <br>easily and always have <br>something to watch.</p>
+            <span id="y">⬇️</span>
+        </div>
+        <div class="q">
+            <h2>Save your favourites <br>something to watch.</h2>
+            <p>Stream unlimited movies and <br>TV shows on your phone, <br>tablet, laptop, and TV.</p>
+            <span id="x">🔎</span>
+        </div>
+        <div class="r">
+            <h2>Create profiles for kids</h2>
+            <p>Send kids on adventures with <br>their favourite characters in a <br>space made just for them <br>free with your membership.</p>
+            <span id="w">🪟</span>
+        </div>
+    </div>
+    <div class="s">
+        <h1>Frequently Asked Questions :</h1>
+    </div>
+    <div id="c">
+        <p>What is Netflix ? <span id="d">+</span></p>
+        <p>How much does Netflix Costs ? <span id="d">+</span></p>
+        <p>Where can I watch ? <span id="d">+</span></p>
+        <p>How do I cancel ? <span id="d">+</span></p>
+        <p>What can I watch on Netflix ? <span id="d">+</span></p>
+        <p>Is Netflix Good for Kids ? <span id="d">+</span></p>
+    </div>
+    <div>
+        <button id="e">Get Started ></button>
+    </div>
+    <div id="f">
+        <p>Questions? Call-7794916233</p>
+    </div>
+    <div id="g">
+        <div id="h">
+            <a href="https://help.netflix.com/en/node/412">FAQ</a><br><br>
+            <a href="https://ir.netflix.net/ir-overview/profile/default.aspx">Investor Relations</a><br><br>
+            <a href="https://help.netflix.com/legal/privacy">Privacy</a><br><br>
+            <a href="https://fast.com/">speed Test</a>
+
+        </div>
+        <div id="i">
+            <a href="https://help.netflix.com/en">Help Centre</a><br><br>
+            <a href="https://jobs.netflix.com/">Jobs</a><br><br>
+            <a href="https://www.netflix.com/in/">Cookie Preference</a><br><br>
+            <a href="https://help.netflix.com/legal/notices">Legal Notices</a>
+        </div>
+        <div id="j">
+            <a href="https://www.netflix.com/account">About</a><br><br>
+            <a href="https://help.netflix.com/en/node/14361">Ways to Watch</a><br><br>
+            <a href="https://help.netflix.com/en/node/134094">Corporate Information</a><br><br>
+            <a href="https://www.netflix.com/in/browse/genre/839338">Only on Netflix</a>
+        </div>
+        <div id="k">
+            <a href="https://media.netflix.com/en/">Media centre</a><br><br>
+            <a href="https://help.netflix.com/legal/termsofuse">Times of use</a><br> <br>
+            <a href="https://help.netflix.com/en/contactus">Contact us</a>
+        </div>
+    </div>
+    <div id="l">
+        <select >
+            <option>English</option>
+            <option>Telugu</option>
+            <option>Hindi</option>
+        </select>    
+    </div>
+    <div id="m">
+        <h3>Netflix india.</h3>
+    </div>   
+</body>
+</html>
